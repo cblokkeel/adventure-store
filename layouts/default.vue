@@ -16,3 +16,11 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { useCartStore } from '~~/stores/cartStore';
+
+const cartStore = useCartStore();
+
+cartStore.loadCart();
+</script>
