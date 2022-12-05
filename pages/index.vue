@@ -17,5 +17,3 @@ const { data: products } = await useFetch<Product[]>(
   'http://localhost:4000/products',
 );
 </script>
-
-<style scoped></style>
